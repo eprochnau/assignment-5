@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* Responsive Setup */
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+
+html{
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+body {
+	padding: 2rem 4rem 10rem;
+	background-color: #f5f5f5;
+	font-family: 'Raleway', sans-serif;
+}
+
+section {
+	margin: 5rem 0 3rem;
+}
+
+.box {
+	height: 100px;
+	width: 200px;
+	background-color: #1b90d3;
+	border: 10px solid #0d70aa;
+}
+
+.ease-all {
+	-webkit-transition: all 350ms ease-in;
+	-moz-transition: all 350ms ease-in;
+ 	-ms-transition: all 350ms ease-in;
+   	-o-transition: all 350ms ease-in;
+	transition: all 350ms ease-in;
+}
+
+
+
+/* Box-1 ~ Moving on Hover */
+
+.box-1 {
+	position: relative;
+	left: 0;
+}
+
+.box-1:hover {
+	left: 100px;
+}
+
+/* Box-2 ~ Rotation and Scale Transforms */
+
+.box-2 {
+}
+
+.box-2:hover {
+	-webkit-transform: scale(1.5,1.5)rotate(-10deg);
+	-moz-transform: scale(1.5,1.5)rotate(-10deg);
+	-ms-transform: scale(1.5,1.5)rotate(-10deg);
+	-o-transform: scale(1.5,1.5)rotate(-10deg);
+	transform: rotate(1.5,1.5);
+}
+
+/* Links */
+
+.fancy-link,
+.fancy-link:link,
+.fancy-link:visited {
+	color: #1b90d3;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 0px solid #1b90s3;
+}
+
+.fancy-link:hover,
+.fancy-link:focus,
+.fancy-link:active {
+	color:#0d70aa;
+	border-bottom: 5px solid #0d70aa;
+}
+
+/* Social Icons */
+
+.hide-text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+}
+
+.social li a,
+.social li a:link,
+.social li a:visited {
+	display: inline-block;
+	float: left;
+	height: 40px;
+	width: 40px;
+	margin-right: 1rem;
+	text-align: center;
+	padding-top: 0.8125rem;
+	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	border-radius: 20px;
+
+	color: #fff;
+	/* background-color: #222; */
+	
+	-webkit-box-shadow: inset 0px 0px 0px 40px #222;
+	-moz-box-shadow: inset 0px 0px 0px 40px #222;
+	-ms-box-shadow: inset 0px 0px 0px 40px #222;
+	-o-box-shadow: inset 0px 0px 0px 40px #222;
+	box-shadow: inset 0px 0px 0px 40px #222;	
+}
+
+.social li a:hover,
+.social li a:focus,
+.social li a:active {
+	-webkit-box-shadow: inset 0px 0px 0px 3px #222;
+	-moz-box-shadow: inset 0px 0px 0px 3px #222;
+	-ms-box-shadow: inset 0px 0px 0px 3px #222;
+	-o-box-shadow: inset 0px 0px 0px 3px #222;
+	box-shadow: inset 0px 0px 0px 3px #222;	
+	
+	color: #222;
+}
+
+
+
+
+
+
+
+
+
+
+
